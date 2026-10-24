@@ -95,43 +95,28 @@ main { max-width: 1200px; margin: 0 auto; padding: 18px 14px 48px; }
   border: 1px solid #8B008B88; background: var(--ink); color: var(--text);
 }
 .search input:focus { outline: 2px solid var(--cyan); border-color: var(--cyan); }
-.tracker-link {
-  appearance: none;
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  text-decoration: none;
-  border: 1px solid var(--ochre);
-  background: linear-gradient(90deg, var(--void), var(--magenta));
-  color: var(--ochre);
-  font: 800 12px/1 var(--display);
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  padding: 9px 14px;
-  border-radius: 999px;
-  white-space: nowrap;
-  box-shadow: 0 0 16px #8B008B55;
-}
-.tracker-link:hover, .tracker-link:focus-visible {
-  border-color: var(--cyan);
-  color: var(--cyan);
-  outline: none;
-  box-shadow: 0 0 0 2px #00E5FF44, 0 0 18px #8B008B66;
-}
+
+/* Card binder grid — stretch items to track width */
 .grid {
   display: grid;
-  /* Fixed min track so cards never collapse into thin slivers */
-  grid-template-columns: repeat(auto-fill, minmax(152px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
   gap: 14px;
-  align-items: start;
+  justify-items: stretch;
+  align-items: stretch;
 }
+
+/*
+  Cards are <div role="button"> — native <button> anonymous boxes break
+  flex + aspect-ratio in Chromium, which collapsed slots into thin strips.
+*/
 .card {
   position: relative;
   display: flex;
   flex-direction: column;
   width: 100%;
-  min-width: 0; /* critical: allow grid item to size from track, not intrinsic img */
+  min-width: 0;
   max-width: 100%;
+  margin: 0;
   background: linear-gradient(165deg, var(--charcoal), var(--ink));
   border: 1px solid #00E5FF44;
   border-radius: 12px;
@@ -146,7 +131,8 @@ main { max-width: 1200px; margin: 0 auto; padding: 18px 14px 48px; }
 .card:hover, .card:focus-visible {
   transform: translateY(-2px);
   box-shadow: 0 0 18px #00E5FF44;
-  outline: none;
+  outline: 2px solid var(--cyan);
+  outline-offset: 2px;
   border-color: var(--cyan);
 }
 .card.missing {
@@ -156,16 +142,21 @@ main { max-width: 1200px; margin: 0 auto; padding: 18px 14px 48px; }
   filter: grayscale(1) brightness(0.55);
   opacity: 0.8;
 }
-/* Lock Pokémon TCG card frame (~2.5:3.5) independent of button quirks */
+
+/* Pokémon TCG frame ~2.5 × 3.5 (63/88). Padding-% of width — immune to button/flex quirks. */
 .art-wrap {
   position: relative;
+  display: block;
   width: 100%;
-  aspect-ratio: 2.5 / 3.5;
+  height: 0;
+  padding-bottom: 139.6825%; /* 88 / 63 */
   background: var(--ink);
   overflow: hidden;
   flex: 0 0 auto;
 }
 .art {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -179,6 +170,7 @@ main { max-width: 1200px; margin: 0 auto; padding: 18px 14px 48px; }
   flex-direction: column;
   gap: 2px;
   min-width: 0;
+  flex: 0 0 auto;
 }
 .meta .no {
   font: 800 11px/1.2 var(--display);
@@ -260,9 +252,8 @@ main { max-width: 1200px; margin: 0 auto; padding: 18px 14px 48px; }
 }
 @media (max-width: 700px) {
   h1 { font-size: 22px; }
-  .grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 10px; }
+  .grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; }
   .banner { max-height: 200px; }
-  .tracker-link { width: 100%; justify-content: center; }
   .toolbar { align-items: stretch; }
 }
 @media (max-width: 420px) {

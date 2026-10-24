@@ -39,9 +39,10 @@
 
     const frag = document.createDocumentFragment();
     visible.forEach((s, i) => {
-      const btn = document.createElement("button");
-      btn.type = "button";
+      const btn = document.createElement("div");
       btn.className = "card" + (s.owned ? "" : " missing");
+      btn.role = "button";
+      btn.tabIndex = 0;
       btn.dataset.index = String(i);
       const label = s.rh ? `${s.no} ${s.name} reverse holo` : `${s.no} ${s.name}`;
       btn.setAttribute("aria-label", `${label}, ${s.owned ? "owned" : "missing"}, market ${cad(s.market)}`);
@@ -57,6 +58,12 @@
           <span class="price">${cad(s.market)}</span>
         </span>`;
       btn.addEventListener("click", () => openLb(i));
+      btn.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          openLb(i);
+        }
+      });
       frag.appendChild(btn);
     });
     grid.replaceChildren(frag);

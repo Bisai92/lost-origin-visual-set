@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lost Origin · Visual Binder</title>
+  <meta name="description" content="SWSH Lost Origin master set visual binder — base, reverse holos, and Trainer Gallery." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#grid">Skip to card grid</a>
+  <header class="hero">
+    <img class="banner" src="banner.jpg" width="1280" height="542" alt="Giratina Origin Forme in the Distortion World" />
+    <div class="hero-overlay">
+      <p class="eyebrow">Lost Zone · Master set</p>
+      <h1>Lost Origin visual binder</h1>
+      <p id="progress" class="progress" aria-live="polite">Loading…</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="toolbar" aria-label="Filters">
+      <div class="filters" role="group" aria-label="Ownership filter">
+        <button type="button" class="chip active" data-filter="all">All</button>
+        <button type="button" class="chip" data-filter="have">Owned</button>
+        <button type="button" class="chip" data-filter="missing">Missing</button>
+      </div>
+      <div class="filters" role="group" aria-label="Slot type filter">
+        <button type="button" class="chip active" data-type="all">Base + RH + TG</button>
+        <button type="button" class="chip" data-type="base">Base / TG</button>
+        <button type="button" class="chip" data-type="rh">Reverse holo</button>
+      </div>
+      <label class="search">
+        <span class="sr-only">Search cards</span>
+        <input id="q" type="search" placeholder="Search name or #" autocomplete="off" />
+      </label>
+    </section>
+
+    <section id="grid" class="grid" aria-label="Card binder slots"></section>
+  </main>
+
+  <div id="lightbox" class="lightbox" hidden role="dialog" aria-modal="true" aria-labelledby="lb-title">
+    <button type="button" class="lb-close" aria-label="Close">&times;</button>
+    <button type="button" class="lb-nav prev" aria-label="Previous card">‹</button>
+    <figure>
+      <img id="lb-img" alt="" />
+      <figcaption>
+        <strong id="lb-title"></strong>
+        <span id="lb-meta"></span>
+      </figcaption>
+    </figure>
+    <button type="button" class="lb-nav next" aria-label="Next card">›</button>
+  </div>
+
+  <footer class="foot">
+    <p>Art via <a href="https://pokemontcg.io">pokemontcg.io</a> · Market prices CAD · Ownership from Distortion World tracker.</p>
+    <p><a href="https://github.com/Bisai92/lost-origin-visual-set">Source on GitHub</a></p>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

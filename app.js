@@ -46,9 +46,11 @@
       const label = s.rh ? `${s.no} ${s.name} reverse holo` : `${s.no} ${s.name}`;
       btn.setAttribute("aria-label", `${label}, ${s.owned ? "owned" : "missing"}, market ${cad(s.market)}`);
       btn.innerHTML = `
-        <img class="art" src="${s.img}" alt="" loading="lazy" width="490" height="683" />
-        ${s.rh ? '<span class="badge" aria-hidden="true">RH</span>' : ""}
-        ${s.owned ? "" : '<span class="miss-tag" aria-hidden="true">MISSING</span>'}
+        <span class="art-wrap">
+          <img class="art" src="${s.img}" alt="" loading="lazy" width="490" height="683" decoding="async" />
+          ${s.rh ? '<span class="badge" aria-hidden="true">RH</span>' : ""}
+          ${s.owned ? "" : '<span class="miss-tag" aria-hidden="true">MISSING</span>'}
+        </span>
         <span class="meta">
           <span class="no">${s.no}${s.rh ? " RH" : ""}</span>
           <span class="name">${s.name}</span>

@@ -24,7 +24,7 @@ Static GitHub Pages binder for the **Sword & Shield — Lost Origin** master set
 git add data.json && git commit -m "Update ownership" && git push
 ```
 
-Missing base (as of Oct 24, 2026): 143, 174, 180, 182, 184, 185, 186, 189, 191, 197, 198, 199, 204, 206, 212.  
+Missing base (as of Oct 27, 2026): 143, 174, 180, 184, 185, 186, 189, 191, 204, 212.  
 Missing reverse holo: 052, 163. Trainer Gallery: all owned.
 
 ## Refresh card art

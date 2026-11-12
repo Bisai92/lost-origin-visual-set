@@ -39,7 +39,7 @@
     {
       "no": "003",
       "name": "Vileplume",
-      "market": 0.57,
+      "market": 0.47,
       "rh": false,
       "owned": true,
       "key": "003",
@@ -201,7 +201,7 @@
     {
       "no": "012",
       "name": "Nuzleaf",
-      "market": 0.18,
+      "market": 0.14,
       "rh": false,
       "owned": true,
       "key": "012",
@@ -219,7 +219,7 @@
     {
       "no": "013",
       "name": "Shiftry",
-      "market": 0.3,
+      "market": 0.35,
       "rh": false,
       "owned": true,
       "key": "013",
@@ -282,7 +282,7 @@
     {
       "no": "016",
       "name": "Phantump",
-      "market": 0.85,
+      "market": 1.23,
       "rh": true,
       "owned": true,
       "key": "016R",
@@ -399,7 +399,7 @@
     {
       "no": "023",
       "name": "Torkoal",
-      "market": 0.35,
+      "market": 0.28,
       "rh": false,
       "owned": true,
       "key": "023",
@@ -462,7 +462,7 @@
     {
       "no": "026",
       "name": "Chandelure",
-      "market": 1.55,
+      "market": 0.61,
       "rh": true,
       "owned": true,
       "key": "026R",
@@ -498,7 +498,7 @@
     {
       "no": "029",
       "name": "Pyroar",
-      "market": 0.57,
+      "market": 0.51,
       "rh": false,
       "owned": true,
       "key": "029",
@@ -516,7 +516,7 @@
     {
       "no": "030",
       "name": "Poliwag",
-      "market": 0.23,
+      "market": 0.35,
       "rh": false,
       "owned": true,
       "key": "030",
@@ -534,7 +534,7 @@
     {
       "no": "031",
       "name": "Poliwhirl",
-      "market": 1.09,
+      "market": 0.6,
       "rh": false,
       "owned": true,
       "key": "031",
@@ -552,7 +552,7 @@
     {
       "no": "032",
       "name": "Politoed",
-      "market": 1.72,
+      "market": 1.47,
       "rh": false,
       "owned": true,
       "key": "032",
@@ -660,7 +660,7 @@
     {
       "no": "038",
       "name": "Luvdisc",
-      "market": 0.35,
+      "market": 0.28,
       "rh": false,
       "owned": true,
       "key": "038",
@@ -741,7 +741,7 @@
     {
       "no": "042",
       "name": "Snover",
-      "market": 0.43,
+      "market": 0.35,
       "rh": true,
       "owned": true,
       "key": "042R",
@@ -813,7 +813,7 @@
     {
       "no": "046",
       "name": "Ducklett",
-      "market": 1.23,
+      "market": 1.4,
       "rh": true,
       "owned": true,
       "key": "046R",
@@ -876,7 +876,7 @@
     {
       "no": "051",
       "name": "Glastrier",
-      "market": 1.13,
+      "market": 0.78,
       "rh": false,
       "owned": true,
       "key": "051",
@@ -885,7 +885,7 @@
     {
       "no": "051",
       "name": "Glastrier",
-      "market": 1.13,
+      "market": 1.4,
       "rh": true,
       "owned": true,
       "key": "051R",
@@ -921,7 +921,7 @@
     {
       "no": "053",
       "name": "Raichu",
-      "market": 2.06,
+      "market": 1.4,
       "rh": true,
       "owned": true,
       "key": "053R",
@@ -993,7 +993,7 @@
     {
       "no": "059",
       "name": "Tynamo",
-      "market": 0.21,
+      "market": 0.35,
       "rh": false,
       "owned": true,
       "key": "059",
@@ -1137,7 +1137,7 @@
     {
       "no": "067",
       "name": "Mr. Mime",
-      "market": 0.5,
+      "market": 0.94,
       "rh": false,
       "owned": true,
       "key": "067",
@@ -1281,7 +1281,7 @@
     {
       "no": "075",
       "name": "Hisuian Zorua",
-      "market": 0.91,
+      "market": 1.05,
       "rh": true,
       "owned": true,
       "key": "075R",
@@ -1299,7 +1299,7 @@
     {
       "no": "076",
       "name": "Hisuian Zoroark",
-      "market": 1.22,
+      "market": 1.19,
       "rh": true,
       "owned": true,
       "key": "076R",
@@ -1308,7 +1308,7 @@
     {
       "no": "077",
       "name": "Inkay",
-      "market": 0.31,
+      "market": 0.35,
       "rh": false,
       "owned": true,
       "key": "077",
@@ -1326,7 +1326,7 @@
     {
       "no": "078",
       "name": "Malamar",
-      "market": 0.71,
+      "market": 0.52,
       "rh": false,
       "owned": true,
       "key": "078",
@@ -1434,7 +1434,7 @@
     {
       "no": "084",
       "name": "Hisuian Arcanine",
-      "market": 1.26,
+      "market": 1.29,
       "rh": true,
       "owned": true,
       "key": "084R",
@@ -1470,7 +1470,7 @@
     {
       "no": "086",
       "name": "Machop",
-      "market": 2.34,
+      "market": 1.76,
       "rh": true,
       "owned": true,
       "key": "086R",
@@ -1587,7 +1587,7 @@
     {
       "no": "094",
       "name": "Sudowoodo",
-      "market": 0.35,
+      "market": 0.24,
       "rh": false,
       "owned": true,
       "key": "094",
@@ -1713,7 +1713,7 @@
     {
       "no": "101",
       "name": "Relicanth",
-      "market": 0.31,
+      "market": 0.23,
       "rh": false,
       "owned": true,
       "key": "101",
@@ -1812,7 +1812,7 @@
     {
       "no": "106",
       "name": "Binacle",
-      "market": 0.31,
+      "market": 0.35,
       "rh": true,
       "owned": true,
       "key": "106R",
@@ -1839,7 +1839,7 @@
     {
       "no": "108",
       "name": "Carbink",
-      "market": 0.26,
+      "market": 0.4,
       "rh": false,
       "owned": true,
       "key": "108",
@@ -1875,7 +1875,7 @@
     {
       "no": "110",
       "name": "Falinks",
-      "market": 0.61,
+      "market": 0.57,
       "rh": false,
       "owned": true,
       "key": "110",
@@ -1974,7 +1974,7 @@
     {
       "no": "115",
       "name": "Honchkrow",
-      "market": 1.97,
+      "market": 1.96,
       "rh": true,
       "owned": true,
       "key": "115R",
@@ -1992,7 +1992,7 @@
     {
       "no": "116",
       "name": "Seviper",
-      "market": 0.89,
+      "market": 0.84,
       "rh": true,
       "owned": true,
       "key": "116R",
@@ -2055,7 +2055,7 @@
     {
       "no": "121",
       "name": "Inkay",
-      "market": 0.28,
+      "market": 0.23,
       "rh": false,
       "owned": true,
       "key": "121",
@@ -2136,7 +2136,7 @@
     {
       "no": "126",
       "name": "Bronzong",
-      "market": 0.57,
+      "market": 0.51,
       "rh": true,
       "owned": true,
       "key": "126R",
@@ -2145,7 +2145,7 @@
     {
       "no": "127",
       "name": "Galarian Stunfisk",
-      "market": 0.21,
+      "market": 0.23,
       "rh": false,
       "owned": true,
       "key": "127",
@@ -2181,7 +2181,7 @@
     {
       "no": "129",
       "name": "Galarian Perrserker V",
-      "market": 1.87,
+      "market": 2.07,
       "rh": false,
       "owned": true,
       "key": "129",
@@ -2208,7 +2208,7 @@
     {
       "no": "132",
       "name": "Goomy",
-      "market": 0.34,
+      "market": 0.52,
       "rh": false,
       "owned": true,
       "key": "132",
@@ -2217,7 +2217,7 @@
     {
       "no": "132",
       "name": "Goomy",
-      "market": 0.35,
+      "market": 0.44,
       "rh": true,
       "owned": true,
       "key": "132R",
@@ -2235,7 +2235,7 @@
     {
       "no": "133",
       "name": "Hisuian Sliggoo",
-      "market": 0.71,
+      "market": 1.01,
       "rh": true,
       "owned": true,
       "key": "133R",
@@ -2244,7 +2244,7 @@
     {
       "no": "134",
       "name": "Hisuian Goodra",
-      "market": 2.65,
+      "market": 2.47,
       "rh": false,
       "owned": true,
       "key": "134",
@@ -2370,7 +2370,7 @@
     {
       "no": "142",
       "name": "Porygon-Z",
-      "market": 0.91,
+      "market": 0.38,
       "rh": true,
       "owned": true,
       "key": "142R",
@@ -2397,7 +2397,7 @@
     {
       "no": "144",
       "name": "Aipom",
-      "market": 0.35,
+      "market": 0.31,
       "rh": false,
       "owned": true,
       "key": "144",
@@ -2541,7 +2541,7 @@
     {
       "no": "153",
       "name": "Arezu",
-      "market": 0.52,
+      "market": 0.35,
       "rh": false,
       "owned": true,
       "key": "153",
@@ -2649,7 +2649,7 @@
     {
       "no": "159",
       "name": "Lady",
-      "market": 0.48,
+      "market": 0.41,
       "rh": false,
       "owned": true,
       "key": "159",
@@ -2793,7 +2793,7 @@
     {
       "no": "167",
       "name": "Thorton",
-      "market": 0.48,
+      "market": 0.38,
       "rh": false,
       "owned": true,
       "key": "167",
@@ -3144,7 +3144,7 @@
     {
       "no": "201",
       "name": "Giratina VSTAR",
-      "market": 34.87,
+      "market": 38.12,
       "rh": false,
       "owned": true,
       "key": "201",
@@ -3315,7 +3315,7 @@
     {
       "no": "TG03",
       "name": "Charizard",
-      "market": 38.3,
+      "market": 39.01,
       "rh": false,
       "owned": true,
       "key": "TG03",
@@ -3324,7 +3324,7 @@
     {
       "no": "TG04",
       "name": "Chandelure",
-      "market": 5.96,
+      "market": 6.2,
       "rh": false,
       "owned": true,
       "key": "TG04",
@@ -3387,7 +3387,7 @@
     {
       "no": "TG11",
       "name": "Castform",
-      "market": 3.74,
+      "market": 4.27,
       "rh": false,
       "owned": true,
       "key": "TG11",

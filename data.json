@@ -903,7 +903,7 @@
     {
       "no": "052",
       "name": "Pikachu",
-      "market": 11.32,
+      "market": 10.78,
       "rh": true,
       "owned": false,
       "key": "052R",
@@ -2991,7 +2991,7 @@
     {
       "no": "184",
       "name": "Galarian Perrserker V",
-      "market": 30.81,
+      "market": 31.17,
       "rh": false,
       "owned": false,
       "key": "184",
@@ -3000,7 +3000,7 @@
     {
       "no": "185",
       "name": "Giratina V",
-      "market": 25.65,
+      "market": 25.86,
       "rh": false,
       "owned": false,
       "key": "185",
@@ -3036,7 +3036,7 @@
     {
       "no": "189",
       "name": "Arezu",
-      "market": 5.96,
+      "market": 6.33,
       "rh": false,
       "owned": false,
       "key": "189",
@@ -3171,7 +3171,7 @@
     {
       "no": "204",
       "name": "Arezu",
-      "market": 6.57,
+      "market": 6.4,
       "rh": false,
       "owned": false,
       "key": "204",
@@ -3243,7 +3243,7 @@
     {
       "no": "212",
       "name": "Giratina VSTAR",
-      "market": 26.16,
+      "market": 24.96,
       "rh": false,
       "owned": false,
       "key": "212",

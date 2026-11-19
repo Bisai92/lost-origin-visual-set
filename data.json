@@ -1884,7 +1884,7 @@
     {
       "no": "110",
       "name": "Falinks",
-      "market": 0.76,
+      "market": 0.72,
       "rh": true,
       "owned": false,
       "key": "110R",
@@ -2730,7 +2730,7 @@
     {
       "no": "163",
       "name": "Mirage Gate",
-      "market": 0.72,
+      "market": 0.64,
       "rh": true,
       "owned": false,
       "key": "163R",
@@ -3009,7 +3009,7 @@
     {
       "no": "186",
       "name": "Giratina V",
-      "market": 1053.13,
+      "market": 1066.11,
       "rh": false,
       "owned": false,
       "key": "186",
@@ -3036,7 +3036,7 @@
     {
       "no": "189",
       "name": "Arezu",
-      "market": 6.36,
+      "market": 6.15,
       "rh": false,
       "owned": false,
       "key": "189",
@@ -3171,7 +3171,7 @@
     {
       "no": "204",
       "name": "Arezu",
-      "market": 6.43,
+      "market": 6.23,
       "rh": false,
       "owned": false,
       "key": "204",
